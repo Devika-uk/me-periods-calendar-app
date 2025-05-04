@@ -1,4 +1,4 @@
-import { Image, StyleSheet, Platform } from 'react-native';
+import { Image, StyleSheet, Platform, Text } from 'react-native';
 
 import { HelloWave } from '@/components/HelloWave';
 import ParallaxScrollView from '@/components/ParallaxScrollView';
@@ -20,7 +20,7 @@ export default function HomeScreen() {
       <ThemedText type="title">Welcome Dear { name }</ThemedText>
         <HelloWave />
       </ThemedView>
-      <text>Calendar</text>
+      <Text>Calendar</Text>
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">Step 1: Try it</ThemedText>
         <ThemedText>
